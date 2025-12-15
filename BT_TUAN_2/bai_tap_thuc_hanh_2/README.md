@@ -46,4 +46,4 @@ Dùng để vẽ danh sách các ô màu đỏ:
 
 ## 4. Hình ảnh đầu ra (Output)
 
-![alt text](image.png)
+![alt text](image.png) ![alt text](image-1.png)
