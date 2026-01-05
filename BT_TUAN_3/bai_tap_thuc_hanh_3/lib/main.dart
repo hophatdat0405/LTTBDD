@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// 1. Tính Trừu tượng (Abstraction)
 abstract class LibraryItem {
   String _id;
   String _title;
@@ -9,21 +8,17 @@ abstract class LibraryItem {
   LibraryItem(this._id, this._title, {bool isBorrowed = false})
     : _isBorrowed = isBorrowed;
 
-  // Tính Đóng gói (Encapsulation): Getter
   String get id => _id;
   String get title => _title;
   bool get isBorrowed => _isBorrowed;
 
-  // Phương thức trừu tượng
   String getDetails();
 
-  // Logic nghiệp vụ đóng gói
   void toggleBorrowStatus() {
     _isBorrowed = !_isBorrowed;
   }
 }
 
-// 2. Tính Kế thừa (Inheritance)
 class Book extends LibraryItem {
   String _author;
 
@@ -32,7 +27,6 @@ class Book extends LibraryItem {
 
   String get author => _author;
 
-  // 3. Tính Đa hình (Polymorphism)
   @override
   String getDetails() {
     return "Tác giả: $_author";
@@ -96,7 +90,6 @@ class _LibraryHomeScreenState extends State<LibraryHomeScreen> {
 
   late User currentUser;
 
-  // Danh sách sách
   final List<LibraryItem> libraryItems = [
     Book("B01", "Lập trình Flutter", "Google Team"),
     Book("B02", "Đắc Nhân Tâm", "Dale Carnegie", isBorrowed: true),
@@ -107,12 +100,9 @@ class _LibraryHomeScreenState extends State<LibraryHomeScreen> {
   @override
   void initState() {
     super.initState();
-    currentUser = userList[0]; // Mặc định chọn người đầu tiên
+    currentUser = userList[0];
   }
 
-  // --- LOGIC ---
-
-  // 1. Xử lý mượn/trả
   void _handleBorrow(int index) {
     setState(() {
       libraryItems[index].toggleBorrowStatus();
