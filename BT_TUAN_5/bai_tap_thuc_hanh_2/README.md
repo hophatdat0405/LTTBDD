@@ -47,4 +47,6 @@ Dưới đây là sơ đồ các màn hình và dữ liệu được truyền đ
 
 ## 4. Hình ảnh đầu ra (Output)
 
-![alt text](image.png)|![alt text](image-1.png)|![alt text](image-2.png)|![alt text](image-3.png)
+|          Forget Password Screen          |         Verify Code Screen          |         Create New Password Screen          |         Confirm Screen         |
+| :--------------------------------------: | :---------------------------------: | :-----------------------------------------: | :----------------------------: |
+| ![  Forget Password Screen  ](image.png) | ![Verify Code Screen ](image-1.png) | ![ Create New Password Screen](image-2.png) | ![Confirm Screen](image-3.png) |
