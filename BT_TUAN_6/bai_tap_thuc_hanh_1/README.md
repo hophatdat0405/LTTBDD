@@ -51,4 +51,6 @@ Dưới đây là sơ đồ luồng dữ liệu và tương tác người dùng:
 
 ## 4. Hình ảnh đầu ra (Output)
 
-| <![alt text](image.png) | ![alt text](image-1.png) | ![alt text](image-2.png)|
+|            Màn hình 1             |             Màn hình 2              |             Màn hình 3              |
+| :-------------------------------: | :---------------------------------: | :---------------------------------: |
+| <img src="image.png" width="250"> | <img src="image-1.png" width="250"> | <img src="image-2.png" width="250"> |
