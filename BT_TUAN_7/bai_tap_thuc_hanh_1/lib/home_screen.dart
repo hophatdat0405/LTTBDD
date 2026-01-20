@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final tasks = await ApiService.fetchTasks();
     if (mounted) {
       setState(() {
-        _tasks = [];
+        _tasks = tasks;
         _isLoading = false;
       });
     }
@@ -289,7 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(
             color: Colors.blue,
             fontWeight: FontWeight.bold,
-            fontSize: 24,
+            fontSize: 22,
           ),
         ),
       ),

@@ -51,4 +51,4 @@ Hệ thống kết nối với **amock.io** theo yêu cầu đề bài:
 
 | Màn hình Danh sách (Data) |  Màn hình Rỗng (Empty)   | Màn hình Chi tiết (Detail) |
 | :-----------------------: | :----------------------: | :------------------------: |
-| ![alt text](image-1.png)  | ![alt text](image-3.png) |  ![alt text](image-2.png)  |
+| ![alt text](image-1.png)  | ![alt text](image-4.png) |  ![alt text](image-2.png)  |
